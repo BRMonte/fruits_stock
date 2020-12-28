@@ -5,23 +5,31 @@ window.onload = function() {
   var melancias = document.getElementById("melanciaCounter").innerHTML
 
   document.getElementById("orangeButton").onclick = function() {
-    oranges--;
-    document.getElementById("orangeCounter").innerHTML = oranges;
+    if (oranges > 0) {
+      oranges--;
+      document.getElementById("orangeCounter").innerHTML = oranges;
+    }
   }
 
   document.getElementById("bananaButton").onclick = function() {
-    bananas--;
-    document.getElementById("bananaCounter").innerHTML = bananas;
+    if (bananas > 0) {
+      bananas--;
+      document.getElementById("bananaCounter").innerHTML = bananas;
+    }
   }
 
   document.getElementById("appleButton").onclick = function() {
-    apples--;
-    document.getElementById("appleCounter").innerHTML = apples;
+    if (apples > 0) {
+      apples--;
+      document.getElementById("appleCounter").innerHTML = apples;
+    }
+
   }
 
   document.getElementById("melanciaButton").onclick = function() {
-    melancias--;
-    document.getElementById("melanciaCounter").innerHTML = melancias;
+    if (melancias > 0) {
+      melancias--;
+      document.getElementById("melanciaCounter").innerHTML = melancias;
+    }
   }
-
 }
