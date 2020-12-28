@@ -9,5 +9,19 @@ window.onload = function() {
     document.getElementById("orangeCounter").innerHTML = oranges;
   }
 
-}
+  document.getElementById("bananaButton").onclick = function() {
+    bananas--;
+    document.getElementById("bananaCounter").innerHTML = bananas;
+  }
 
+  document.getElementById("appleButton").onclick = function() {
+    apples--;
+    document.getElementById("appleCounter").innerHTML = apples;
+  }
+
+  document.getElementById("melanciaButton").onclick = function() {
+    melancias--;
+    document.getElementById("melanciaCounter").innerHTML = melancias;
+  }
+
+}
