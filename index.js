@@ -10,6 +10,10 @@ window.onload = function() {
       document.getElementById("orangeCounter").innerHTML = oranges;
     }
   }
+  document.getElementById("orangeFix").onclick = function() {
+    oranges++;
+    document.getElementById("orangeCounter").innerHTML = oranges;
+  }
 
   document.getElementById("bananaButton").onclick = function() {
     if (bananas > 0) {
